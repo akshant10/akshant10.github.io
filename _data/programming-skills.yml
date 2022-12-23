@@ -1,14 +1,20 @@
-- name: HTML5/CSS3
-  percentage: 90
-  level: Expert
-  color: danger
-
-- name: Go
-  percentage: 5
-  level: Beginner
-  color:
 
 - name: Python
   percentage: 90
   level: Expert
-  color: secondary
+  color: danger
+  
+- name: R
+  percentage: 80
+  level: Expert
+  color: danger
+
+- name: SQL
+  percentage: 80
+  level: Expert
+  color: danger
+  
+- name: HTML/CSS
+  percentage: 75
+  level: Intermediate
+  color: Expert
