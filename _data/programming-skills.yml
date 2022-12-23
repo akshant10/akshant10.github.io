@@ -5,11 +5,16 @@
   color: danger
   
 - name: R
-  percentage: 90
+  percentage: 80
   level: Expert
-  color: danger
+  color: Secondary
 
 - name: SQL
   percentage: 80
   level: Expert
   color: Secondary
+  
+- name: HTML/CSS
+  percentage: 80
+  level: Intermediate
+  color:
