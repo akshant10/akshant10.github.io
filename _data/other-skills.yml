@@ -7,6 +7,11 @@
   percentage: 90
   level: Expert
   color: danger
+  
+- name: Selenium (Data Scraping)
+  percentage: 80
+  level: Expert
+  color: danger
 
 - name: Microsoft Excel
   percentage: 75
@@ -14,8 +19,8 @@
   color: Secondary
 
 - name: Adobe Photoshop
-  percentage: 90
-  level: Expert
-  color: danger
+  percentage: 75
+  level: Intermediate
+  color: Secondary
   
  #info, success
