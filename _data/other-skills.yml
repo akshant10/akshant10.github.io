@@ -1,3 +1,8 @@
+- name: Tableau & Power BI
+  percentage: 97
+  level: Expert
+  color: danger
+
 - name: Data Mining
   percentage: 95
   level: Expert
