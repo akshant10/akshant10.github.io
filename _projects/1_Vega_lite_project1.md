@@ -20,7 +20,7 @@ custom_js:
 ### Link to Python file: 
 ------------------------------------------------------------------------------------
 <div class="right">
-{% include elements/button.html link="https://github.com/achuri2/achuri2.github.io/blob/main/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
+{% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
 </div>
 
 ### BACKGROUND
@@ -101,6 +101,6 @@ https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
 
 
 <div class="right">
-{% include elements/button.html link="https://github.com/achuri2/achuri2.github.io/tree/main/project%20data" text="link to data" %}
+{% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/tree/main/project%20data" text="link to data" %}
 </div>
 
