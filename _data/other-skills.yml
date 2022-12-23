@@ -11,7 +11,7 @@
 - name: Microsoft Excel
   percentage: 75
   level: Intermediate
-  color: danger
+  color: Secondary
 
 - name: Adobe Photoshop
   percentage: 90
