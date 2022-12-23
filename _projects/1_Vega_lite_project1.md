@@ -1,5 +1,5 @@
 ---
-name: CHICAGO VEHICLE CRASH ANALYSIS | Final Project Part 3.1
+name: CHICAGO VEHICLE CRASH ANALYSIS | Final Project, Data Visualization 
 image: https://user-images.githubusercontent.com/98044494/205228244-231c2043-aa79-4f71-8f1f-6252b16057a6.png
 description: This is our Final Project consisting of 3 dashboards.
 custom_js:
