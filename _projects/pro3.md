@@ -1,6 +1,6 @@
 ---
 name: Chicago CTA Metro line Crime Analysis
-image: https://user-images.githubusercontent.com/98044494/205228244-231c2043-aa79-4f71-8f1f-6252b16057a6.png
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/08/640/320/Untitled-design-463.png?ve=1&tl=1
 description: Analysis of crime with associated with different CTA metro line 
 custom_js:
   - vega.min
@@ -15,9 +15,6 @@ custom_js:
 
 #### Project done by Akshant Churi
 
-------------------------------------------------------------------------------------
-
-### Link to Python file: 
 ------------------------------------------------------------------------------------
 <div class="right">
 {% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
