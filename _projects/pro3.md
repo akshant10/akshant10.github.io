@@ -42,9 +42,6 @@ In this study, the data is collected from the Chicago data portal which allows f
 {% include elements/button.html link="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme " text="CTA Stations Dataset" %}
 </div>
 
-<div class="right">
-{% include elements/button.html link="file:///Users/akshant/Downloads/paper/paper.html" text="Link to Project" %}
-</div>
 
 Part 1: Analysis of Chicago Crime Dataset:
 
@@ -52,30 +49,43 @@ The crime dataset consists of more than 6 million rows of criminal cases involve
 
 Figure 1 shows the top 5 popular crimes from the year 2001-2022. Figure 2 which is made using matplotlib Library in Python shows public peace violation in Chicago during the year 2011. The graph is made by plotting crime location points on the Chicago city basemap which was also available on the Chicago data portal website. The black dots in the graph represent the crime locations for the following year. Next, Figure 3 is a line chart which shows the trend for all crimes which took place from the year 2001-2022. As seen from the graph, the overall number of criminal cases have decreased overtime possibly due to better security measures which are taken by the city. Figure 4 explains the trend of Theft crimes from the year 2001-2022. Both Figure 2 & 3 have almost similar trends. 
     
-<img src="../assets/pngs/fig1.png" alt="image"  />
+<img src="../assets/pngs/fig1.png" alt="image"/>
 
 Figure 1: Top 5 popular crimes from 2001-2022                
 
+<img src="../assets/pngs/fig2.png" alt="image"/>
+
 Figure 2: Public Peace Violation in the year 2011 (Graph made using Python)
 
+<img src="../assets/pngs/fig3.png" alt="image"  />
+Figure 3: Trend of the crime cases from 2001-2022		
 
-                       Figure 3: Trend of the crime cases from 2001-2022		                   FIgure 4: Trend of Theft cases only, from 2001-2022
+<img src="../assets/pngs/fig4.png" alt="image"  />
+Figure 4: Trend of Theft cases only, from 2001-2022
 
 
 Part 2: Analysis of Chicago CTA stations dataset:
 
 This dataset has 300 rows with station information such as Id, name, direction, line and coordinates. Most of Chicago's CTA train stations consist of 2 platforms in direction North, South, East or West. Even though the directions are different for any station, the coordinates remain the same. For example as shown in Figure 5, Station Halsted has 2 platforms in the direction W and E, but the location for both the rows remains the same. Moreover, the G column has True value which suggests that the station is on the green line.
 
+<img src="../assets/pngs/fig5.png" alt="image"  />
 Figure 5: Information about Halsted Station
 
 To avoid any duplicate values with the same coordinates for any station, I have considered the unique values of station ID. By Further preprocessing and manipulating the data using Pandas in Python, the following dataset is obtained as shown in Figure 6. In some scenarios multiple lines cross a single station, for instance, State/Lake station in the downtown Chicago region has 5 lines shown in Figure 7.
 
+<img src="../assets/pngs/fig6.png" alt="image"  />
+Figure 6: Preprocessed data				      
 
-                   Figure 6: Preprocessed data				           Figure 7: State/Lake station information
+<img src="../assets/pngs/fig7.png" alt="image"  />
+Figure 7: State/Lake station information
 
 In total there are 8 different lines in Chicago which are Red, Blue, Brown, Green, Orange, Pink, Purple and Yellow. Figure 8 shows the count of stations on different lines. Plotting the latitude and longitude points and adding color in Tableau we get the following map chart as shown in Figure 9. As seen the Train lines are all connected in the downtown region and spread outwards in different regions of Chicago. A lot of people travel to the downtown region being a big financial center and hence a number of stations are present in this region which form a loop as shown in Figure 10. 
-                          
-Figure 8: Count of Stations  on CTA train lines		        Figure 9: Chicago CTA Metro Lines map Plot using Tableau
+             
+<img src="../assets/pngs/fig8.png" alt="image"  />
+Figure 8: Count of Stations  on CTA train lines		    
+
+<img src="../assets/pngs/fig9.png" alt="image"  />
+Figure 9: Chicago CTA Metro Lines map Plot using Tableau
 
 
   	  
