@@ -49,7 +49,7 @@ The crime dataset consists of more than 6 million rows of criminal cases involve
 
 Figure 1 shows the top 5 popular crimes from the year 2001-2022. Figure 2 which is made using matplotlib Library in Python shows public peace violation in Chicago during the year 2011. The graph is made by plotting crime location points on the Chicago city basemap which was also available on the Chicago data portal website. The black dots in the graph represent the crime locations for the following year. Next, Figure 3 is a line chart which shows the trend for all crimes which took place from the year 2001-2022. As seen from the graph, the overall number of criminal cases have decreased overtime possibly due to better security measures which are taken by the city. Figure 4 explains the trend of Theft crimes from the year 2001-2022. Both Figure 2 & 3 have almost similar trends. 
     
-![avatar](assets/pngs/fig1.png)
+![avatar](https://github.com/akshant10/akshant10.github.io/blob/fb0baa1625fb9f1289427349a4f27af2ce559bf4/assets/pngs/fig1.png)
 
 Figure 1: Top 5 popular crimes from 2001-2022                
 
