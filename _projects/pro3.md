@@ -88,9 +88,11 @@ Figure 8: Count of Stations  on CTA train lines
 Figure 9: Chicago CTA Metro Lines map Plot using Tableau
 
 
-  	  
-         Figure 10: (Left) Downtown Chicago Region made on Tableau; 
-            Figure 10: (Right) Official CTA train map, https://www.transitchicago.com/maps/
+<img src="../assets/pngs/fig10a.png" alt="image"  />	  
+Figure 10a: Downtown Chicago Region made on Tableau
+
+<img src="../assets/pngs/fig10b.png" alt="image"  />	
+Figure 10b: Official CTA train map, https://www.transitchicago.com/maps/
 
 				
 
@@ -102,7 +104,12 @@ To combine both the crime and CTA Train dataset, I have identified crime locatio
 ## 3. Results and Discussion
 
 The final combined dataset csv file is loaded in Tableau which allows easy visualization and understanding of data.
-
+<img src="../assets/pngs/fig16.png" alt="image"  />	
+<img src="../assets/pngs/fig11.png" alt="image"  />	
+<img src="../assets/pngs/fig12.png" alt="image"  />	
+<img src="../assets/pngs/fig13.png" alt="image"  />	
+<img src="../assets/pngs/fig14.png" alt="image"  />	
+<img src="../assets/pngs/fig15.png" alt="image"  />	
 
 
 
