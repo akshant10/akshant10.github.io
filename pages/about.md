@@ -10,7 +10,7 @@ weight: 3
 Hi I am **{{ site.author.name }}**:<br>
 Motivated, teamwork-oriented, responsible, and experienced Data Analyst with a master’s degree in Information Management from the School of Information Science at the University of Illinois Urbana-Champaign. My aim is to leverage the power of Data Analytics, Visualization and Statistics for generating meaningful insights for business.
 
-<div class="right">
+<div class="left">
 {% include elements/button.html link="https://www.linkedin.com/in/akshant-churi/" text="Linkedin" %}
 </div>
 
