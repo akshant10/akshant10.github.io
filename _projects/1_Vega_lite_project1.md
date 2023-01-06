@@ -99,7 +99,6 @@ https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-j
 https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
 
 
-
 <div class="right">
 {% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/tree/main/project%20data" text="link to data" %}
 </div>

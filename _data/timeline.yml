@@ -1,27 +1,24 @@
 - title: Logistics Data Analyst Intern | TTX Company | Chicago, USA
   from: May, 2022
   to: present
-  description: Coordinate the production process, including schedules, workflows, and deadlines. Organize content, confirming the receipt of articles and supporting files. Correspond with issue editors, authors, and the publisher’s production staff. Gather publishing agreements. Provide guidance regarding the submission of image files for figures and gather copyright permissions as needed. Upload articles into ScholarOne, assign roles, generate correspondence, bring to completion, and upload to the publisher. Assist with copy editing and proofreading. Review and approve proofs. Assist the coeditors-in-chief as needed. Prepare for meetings of Library Trends Editorial Board, write, and distribute meeting agendas and minutes, and communicate with the members. 
-
+  description: Implemented 8 Dashboards with 40 Million plus records for US major railroads such as Union Pacific, BNSF, CSXT etc in Tableau. Designed Dynamic Dashboards to show trends of various TTX Intermodal fleets and analysis of spatial data across 3 countries (USA, Mexico, Canada). Analyzed trend such as popular origin and destination city/state pairs, cycle counts & time, comparison between miles & days for overall industry average and respective railroad. 
+  
 - title: Research Program Data Intern | Illinois Quantum Information Science and Technology, UIUC | Champaign, USA
   from: May, 2022
   to: August, 2022
-  description:  Lead a team of editors and production staff creating website content and four daily curated email newsletters. Create published content on social media for communication and outreach. Coordinate editorial meetings. Review potential content and contributor submissions ahead of publication. Correspond with contributors during the editorial process. Oversee staff scheduling and training of new staff members. Maintain an overview of the publication's responsibilities and deadlines and update and evaluate publication policies and operational procedures for editorial and production teams. Provide support to the publisher on various administrative and organizational matters. 
-
+  description:  Created a web scrapping tool using Python to automate the process of extracting research paper publication data and creating reports from Arxiv and Google Scholar, reducing human intervention by 90%. Used Python Libraries like win32 and Selenium for automating process of email notification to the users. Preprocessed 2000+ research paper textual data using natural language libraries in Python to find key word, author, genre, publication date etc. 
+  
 - title: Business Strategic Consultant | Carle Illinois college of Medicine, UIUC | Champaign, USA
   from: March, 2022
   to: May, 2022
-  description: Created, planned, and taught fine arts curriculum for grades K-5. Designed and implemented a series of fine arts professional development workshops for       classroom teachers. Ran artist-in-residence program (hiring, scheduling, curriculum, and supervision). Organized field trips and in-school performances. Authored newspaper articles and press releases for local papers. Authored continuing grants, final reports, and amendments. 
-
+  description: Created strategies for market analysis of Mesh Fixation Device, and factors such as value proposition, brand identity and risk management. Monitored competitor trends and analyzed customer feedback, writing executive summary and business case for a comprehensive product roadmap.
 
 - title: Data Analyst Intern | Revitech Infosolutions | Mumbai, India 
   from: March, 2019
   to: September, 2019
-  description: Frequent public speaking on various topics related to education and policy. Make complex ideas and subject engaging and understandable for a political and educational audience, including explaining jargon, discussions of student data, and controversial issues like COVID protocols. Founded and wrote for the district’s “Family Forum,” which allowed families to share resources during remote learning. Serve as board representative on the district’s public relations, sick leave bank, parent-teacher advisory committee, finance committees, and the foundation board. 	
-
-- title: Graphic Designer / Creative Head | St. Francis Institute of Technology | Mumbai, India 
+  description: Created interactive Dashboards in Tableau using action filters, parameters, LOD, context filters to visualize sales over time for 10+ medical stores. Examined current market trends using Descriptive analysis and measured 5 significant KPIs using Google Analytics. Carried out customer segmentation (K-means) to derive insights on groups that require marketing assistance, thereby increasing profitability by 30%.
+  
+- title: Graphic Designer / Creative Head | Computer Society of India | St. Francis Institute of Technology | Mumbai, India 
   from: August, 2018
   to: May, 2019
-  description: Frequent public speaking on various topics related to education and policy. Make complex ideas and subject engaging and understandable for a political and educational audience, including explaining jargon, discussions of student data, and controversial issues like COVID protocols. Founded and wrote for the district’s “Family Forum,” which allowed families to share resources during remote learning. Serve as board representative on the district’s public relations, sick leave bank, parent-teacher advisory committee, finance committees, and the foundation board. 	
-
-               
+  description: Creative head for Computer Society of India, managed team of 4 executives and Designed CSI annual magazine 2019, Paradigm.
