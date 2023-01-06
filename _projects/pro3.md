@@ -20,7 +20,6 @@ custom_js:
 {% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
 </div>
 
-Crime data analysis around Chicago transit authority metro lines
 
 ## 1. Introduction:
 Chicago is one of the biggest cities in the United States and is home to more than 2.5 million people. When it 
@@ -30,40 +29,18 @@ With the help of public data and the power of data analytics tools available thi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2. Methodology:
 
 In this study, the data is collected from the Chicago data portal which allows free access to the government data. There are 2 main data sources which are:
-1: (Crime dataset) https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 
-2: (CTA stations) https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme 
+
+<div class="right">
+{% include elements/button.html link="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2" text="Crime Dataset" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme " text="CTA Stations Dataset" %}
+</div>
+
 
 Part 1: Analysis of Chicago Crime Dataset:
 
