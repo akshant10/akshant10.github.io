@@ -16,7 +16,6 @@ custom_js:
 ### International Research Journal of Modernization in Engineering Technology and Science (IRJMETS), Volume 3, Issue4, April 2021, paper ID IRJMETS812155
 ------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------
 <div class="right">
 {% include elements/button.html link="https://www.irjmets.com/uploadedfiles/paper/volume3/issue_4_april_2021/8350/1628083343.pdf" text="Link to Paper" %}
 </div>
