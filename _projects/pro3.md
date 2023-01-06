@@ -42,6 +42,9 @@ In this study, the data is collected from the Chicago data portal which allows f
 {% include elements/button.html link="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme " text="CTA Stations Dataset" %}
 </div>
 
+<div class="right">
+{% include elements/button.html link="file:///Users/akshant/Downloads/paper/paper.html" text="Link to Project" %}
+</div>
 
 Part 1: Analysis of Chicago Crime Dataset:
 
