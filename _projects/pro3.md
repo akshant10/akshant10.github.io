@@ -1,7 +1,7 @@
 ---
-name: CHICAGO VEHICLE CRASH ANALYSIS | Final Project, Data Visualization 
-image: https://user-images.githubusercontent.com/98044494/205228244-231c2043-aa79-4f71-8f1f-6252b16057a6.png
-description: This is our Final Project consisting of 3 dashboards.
+name: Chicago CTA Metro line Crime Analysis
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/08/640/320/Untitled-design-463.png?ve=1&tl=1
+description: Analysis of crime with associated with different CTA metro line 
 custom_js:
   - vega.min
   - vega-lite.min
@@ -10,96 +10,88 @@ custom_js:
 ---
 
 
-# CHICAGO VEHICLE CRASH ANALYSIS
+# Chicago CTA Metro line Crime Analysis
 ------------------------------------------------------------------------------------
 
-#### Project done by Akshant Churi, Samruddhi Choudhari and Smit Malik
+#### Project done by Akshant Churi
 
-------------------------------------------------------------------------------------
-
-### Link to Python file: 
 ------------------------------------------------------------------------------------
 <div class="right">
 {% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
 </div>
 
-### BACKGROUND
 
-The Chicago city vehicle crash count is on the rise as always and it is really important to analyse the pain points and see what is going wrong. So, this project helps the users as well as the chicago government to see various factors like red light, speed violations, weather, car models and other factors affecting crashes in the city.The project has 3 interactive dashboards that helps the user analyze these aspects. The dashboard is also easy to use and has appropriate asthetic choices that enhance it even further.
+## 1. Introduction:
+Chicago is one of the biggest cities in the United States and is home to more than 2.5 million people. When it 
+rises in crime and violence, New York and Los Angeles are two major U.S. cities that experience comparable issues with homicide rates, but Chicago stands out as particularly problematic, with roughly 17 homicides per 100,000 people occurring in the years 2014 to 2015. This city is infamous for its gun violence and gang crimes, which are being driven by growing gun crime across America. 
 
-### DASHBOARD 1: Drag and Select Bars on 1st Area Plot to Interact With the rest 3 charts
-
-This dashboard gives the user an idea on how the chicago crashes vary with the age, gender and time of the year. This dashboard has 4 interactive charts in it:
-1. Area chart - Age of people involved in crash
-2. Pie chart - Male Vs Female involved in crash
-3. Chicago basemap - Highlights red light, speed violations, crashes in the city of Chicago
-4. Line Chart - Shows monthly change in the number fo crashes
-
-Chart 1 here is interactive and the user can easily select any range of age that the user is interested in and simultaneously the other three charts will get updated. Based on chart 1 we can see that crashes are the maximum for ages 25-30 and after selecting this particular area we can see that crashes were more for male than female with slightly more numbers. Here in chart 3 we can see that most of the crashes are associated in downtown region and some of them are spread out in south region as well. It also has a lot of red light and speed violations. In chart 4 we can see that crashes are less in Jan, Feb, March, December and maximum in the month of october. The main reason behind this can be that end and start of the year there is a lot of snow due to which people do not travel a lot with their vehicles. And october being holiday season people use a lot of vehicles leading to more crashes. 
-
-The chart 4 line chart uses categorical data instaed of bar chart as we wanted to show trend over the year where the crashes start rising mid year, peak in oct and then drop during winters.
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/file1.json" style="width: 100%"></vegachart>
-
-### DASHBOARD 2: Drag and Select Bars on 1st Area Plot to Interact with the rest 2 charts
-
-This dashboard gives the user an idea on how the chicago crashes vary with the age, gender and time of the year. This dashboard has 4 interactive charts in it:
-1. Bar chart - Types of cars models involved in crashes
-2. Line chart - Crash trend over years 2016-2022 
-3. Bar Chart - Shows the amount of damange done(in $) (501-1500$) and (over 1500$)
-
-This is an interactive dashboard where once the user selects the car models he is interested in the rest 2 charts get updated. Based on the charts we can see that Camry model car had the maximum number of crashes followed by accord. Maybe these are the cars that people own the most and affordable ones. After selecting camry in the furst plot we can see that it had maximum accidents in year 2017 and then it dropped during the covid years since there were less people out on roads driving. And based on chart 3 we can see that most of the damage was over 1500$ which means there were serious damage done to the car. This can be beneficial in understanding the areas these accidents happended the most while if the car models were not safe enough to drive.
-
-The chart 2 line chart uses years 2016-2022 instead of bar chart to show trend of crashes in that time.
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/file2.json" style="width: 100%"></vegachart>
-
-### DASHBOARD 3: Drag and Select Bars on 1st bar plot to Interact With the rest 3 bar charts
-
-This dashboard gives the user an idea on how the chicago crashes vary with the age, gender and time of the year. This dashboard has 4 interactive charts in it:
-1. Bar Chart - Monthly crash count
-2. Bar Chart - Weather crash count
-3. Bar Chart - Lightening crash count
-4. Bar Chart - Roadway crash count
-
-This dashboard has 4 charts that are linked to each other. They help the user understand the monthly crash count along with the weather, lightening and roadway conditions. Based on chart 1 we can see that month of september, october had maximum crashes and followed by winter season having the least. In claer weather conditions we have had the maximum crashes while in daylight lightening condition. Also when the road was dry the accidents happened the most. Hence, we can see that weather plays an important role in crashes across Chicago.
+With the help of public data and the power of data analytics tools available this research paper helps to answer questions like which CTA metro lines are riskier to travel, which type of crime is most common and what time of the day most crime occurs around metro stations. 
 
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/file3.json" style="width: 100%"></vegachart>
-------------------------------------------------------------------------------------
+## 2. Methodology:
 
-###Contextual viz
-<vegachart schema-url="{{ site.baseurl }}/assets/json/file4.json" style="width: 100%"></vegachart>
-
-#### CONTEXTUAL VISUALIZATION
-The 2 contextual datasets choosen are the red light and speed violations. For this project we have created our own contextual visualizations. There are 2 charts made. First one is in dashboard 1 which shows the chicago base map along with the two violations. The second line charts tells us the daily red and speed violations done in the city from monday to sunday. Saturday and sunday were the days with maximum violations. Maybe these were holidays and people went out more often.
-
-------------------------------------------------------------------------------------
-
-### CONCLUSION
-To conclude we would like to say that this project can be of real help to the Chicago city. Lots of people everyday loose their lives due to these crashes. We can see from the dashboards that people of age 25-30 are more liekly to be involved in crashes than others. As this is the youth and more likely to be not following rules and getting involved in crashes. We also saw that mostly red light violations and speed violations were done in the chicago downtown area while most accidents happening in the month of sept, oct and least in the winter months were there is a lot of snow in chicago. Most likely people do not go out and would eventually lead to lesser crashes.
-
-------------------------------------------------------------------------------------
-### CITATION
-1. crashes dataset https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
-
-2. vehicle dataset
-https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3
-
-3. people dataset
-https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
-
-CONTEXTUAL DATASET LINK
-
-4. red light camera violation
-https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37
-
-5. speed camera violation
-https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
-
+In this study, the data is collected from the Chicago data portal which allows free access to the government data. There are 2 main data sources which are:
 
 <div class="right">
-{% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/tree/main/project%20data" text="link to data" %}
+{% include elements/button.html link="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2" text="Crime Dataset" %}
 </div>
+
+<div class="right">
+{% include elements/button.html link="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme " text="CTA Stations Dataset" %}
+</div>
+
+
+Part 1: Analysis of Chicago Crime Dataset:
+
+The crime dataset consists of more than 6 million rows of criminal cases involved from 2001 to 2022 along with the location’s latitude and longitude coordinates. There are a total of 35 unique crimes such as assault, robbery, gun violation etc. 
+
+Figure 1 shows the top 5 popular crimes from the year 2001-2022. Figure 2 which is made using matplotlib Library in Python shows public peace violation in Chicago during the year 2011. The graph is made by plotting crime location points on the Chicago city basemap which was also available on the Chicago data portal website. The black dots in the graph represent the crime locations for the following year. Next, Figure 3 is a line chart which shows the trend for all crimes which took place from the year 2001-2022. As seen from the graph, the overall number of criminal cases have decreased overtime possibly due to better security measures which are taken by the city. Figure 4 explains the trend of Theft crimes from the year 2001-2022. Both Figure 2 & 3 have almost similar trends. 
+                   
+
+Figure 1: Top 5 popular crimes from 2001-2022                Figure 2: Public Peace Violation in the year 2011 (Graph made using Python)
+
+
+                         Figure 3: Trend of the crime cases from 2001-2022		                   FIgure 4: Trend of Theft cases only, from 2001-2022
+
+
+Part 2: Analysis of Chicago CTA stations dataset:
+
+This dataset has 300 rows with station information such as Id, name, direction, line and coordinates. Most of Chicago's CTA train stations consist of 2 platforms in direction North, South, East or West. Even though the directions are different for any station, the coordinates remain the same. For example as shown in Figure 5, Station Halsted has 2 platforms in the direction W and E, but the location for both the rows remains the same. Moreover, the G column has True value which suggests that the station is on the green line.
+
+Figure 5: Information about Halsted Station
+
+To avoid any duplicate values with the same coordinates for any station, I have considered the unique values of station ID. By Further preprocessing and manipulating the data using Pandas in Python, the following dataset is obtained as shown in Figure 6. In some scenarios multiple lines cross a single station, for instance, State/Lake station in the downtown Chicago region has 5 lines shown in Figure 7.
+
+
+                   Figure 6: Preprocessed data				           Figure 7: State/Lake station information
+
+In total there are 8 different lines in Chicago which are Red, Blue, Brown, Green, Orange, Pink, Purple and Yellow. Figure 8 shows the count of stations on different lines. Plotting the latitude and longitude points and adding color in Tableau we get the following map chart as shown in Figure 9. As seen the Train lines are all connected in the downtown region and spread outwards in different regions of Chicago. A lot of people travel to the downtown region being a big financial center and hence a number of stations are present in this region which form a loop as shown in Figure 10. 
+                          
+Figure 8: Count of Stations  on CTA train lines		        Figure 9: Chicago CTA Metro Lines map Plot using Tableau
+
+
+  	  
+         Figure 10: (Left) Downtown Chicago Region made on Tableau; 
+            Figure 10: (Right) Official CTA train map, https://www.transitchicago.com/maps/
+
+				
+
+
+Part 3: Analysis by combining both the Dataset
+
+To combine both the crime and CTA Train dataset, I have identified crime locations which are near to any CTA train station. In order to do so, I’m using the distance between the 2 points (crime location and CTA metro station location) which is calculated with the help of Geographiclib in Python. Using an ellipsoid model of the earth, this library can be used to solve geodesic problems. For this research purpose I have kept a threshold value of 500 meters. Meaning, only information about crime locations which are under 500 meters from the CTA train station will be stored and used for analysis.
+
+## 3. Results and Discussion
+
+The final combined dataset csv file is loaded in Tableau which allows easy visualization and understanding of data.
+
+
+
+
+
+
+
+
+
 
