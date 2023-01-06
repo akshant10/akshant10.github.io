@@ -1,7 +1,7 @@
 ---
 name: Cookies, a treat or a threat?
 image: https://uploads-ssl.webflow.com/611bcdf7e779fb4f75455811/612e10782cd2ed0be3670a9f_609d31908ded5f447530cec0_computer-cookies-featured-image.png
-description: Case Study about Verizon's use of cookies without their customers consent
+description: Case Study about Verizon's use of Internet Cookies to collect data without their customers consent
 custom_js:
   - vega.min
   - vega-lite.min
