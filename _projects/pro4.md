@@ -1,7 +1,7 @@
 ---
-name: Chicago CTA Metro line Crime Analysis
-image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/08/640/320/Untitled-design-463.png?ve=1&tl=1
-description: Analysis of crime with associated with different CTA metro line 
+name: Cookies, a treat or a threat?
+image: https://uploads-ssl.webflow.com/611bcdf7e779fb4f75455811/612e10782cd2ed0be3670a9f_609d31908ded5f447530cec0_computer-cookies-featured-image.png
+description: Case Study about Verizon's use of cookies without their customers consent
 custom_js:
   - vega.min
   - vega-lite.min
@@ -9,106 +9,113 @@ custom_js:
   - justcharts
 ---
 
+## Cookies, a treat or a threat?
+#### Report made by Akshant Churi
 
-# Chicago CTA Metro line Crime Analysis
-------------------------------------------------------------------------------------
+####Research Question:
+#####“What are the ethical rules and regulations to balance the use of cookies in maintaining privacy?” 
 
-#### Project done by Akshant Churi
+## Introduction:
+HTTP cookies play a vital role in today’s internet booming world. The Main necessity of Cookies are to keep a track and monitor websites you visit and track the items user clicks on. Generally these cookies are like simple text files which aim to improve the user's website experience. 
+A lot of people consider HTTP cookies as a smart, harmless technology which can do no harm to the personal computer. But, cookies are of different types and some of them raise security concerns, one of them is called a super cookie. Super cookies are a specific kind of browser cookie that are intended to remain on a user's machine forever. Super cookies can't be removed the same way as regular cookies, hence they are typically more challenging for users to find and erase from their devices. Super cookies function similarly to conventional cookies, in that they are able to store virtually any type of data, including browsing history. data for ad targeting or authentication details. 
+Today, Many people are rebelling against firms exploiting data without adequate consent in the advertising industry. This is one of the interesting case studies about Verizon, which is one of the world’s leading network providers. In march 2016, Verizon settled a fine of 1.35 million dollars with FCC which is the Federal Communication Commission. It was found that Verizon used supercookies which acted as a tracker to collect customer data without their consent. Supercookies were first inserted into Internet traffic by Verizon Wireless in 2012, although the company didn't start disclosing this until the year 2014 when FCC was involved. This Clearly shows that verizon was not transparent when it comes to data collection. 
 
-------------------------------------------------------------------------------------
-<div class="right">
-{% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
-</div>
+## Literature Review
 
-![img1](https://img.masstransitmag.com/files/base/cygnus/mass/image/2022/12/16x9/US_NEWS_CHICAGO_TRANSIT_CRIME_TB.63ab848633023.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630)
-
-## 1. Introduction:
-Chicago is one of the biggest cities in the United States and is home to more than 2.5 million people. When it 
-rises in crime and violence, New York and Los Angeles are two major U.S. cities that experience comparable issues with homicide rates, but Chicago stands out as particularly problematic, with roughly 17 homicides per 100,000 people occurring in the years 2014 to 2015. This city is infamous for its gun violence and gang crimes, which are being driven by growing gun crime across America. 
-
-With the help of public data and the power of data analytics tools available this research paper helps to answer questions like which CTA metro lines are riskier to travel, which type of crime is most common and what time of the day most crime occurs around metro stations. 
-
-
-
-## 2. Methodology:
-
-In this study, the data is collected from the Chicago data portal which allows free access to the government data. There are 2 main data sources which are:
-
-<div class="right">
-{% include elements/button.html link="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2" text="Crime Dataset" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme " text="CTA Stations Dataset" %}
-</div>
+#### Privacy concerns related to data collected by cookies
+Recent studies outline that because information is gathered about users without their consent while using cookies, this perception of privacy invasion is common. Users might not be aware that a cookie is being stored on their computer's hard drive, how it will be put to use, or whether anybody else will have access to the data. This paper [1] talks about disadvantages of using cookies and how research is done about home pages of 60 websites belonging to the businesses included in the Fortune Global 500 issue from 1999 for studies conducted in 2000 and 2001. In connection with their home pages, more than one third of the corporate sites in the poll set cookies. Because of this, it's crucial that Internet users who have cookies enabled when visiting a website read the privacy policies. Users risk being unaware of the cookie's placement and the website's intended use of the data gathered if they fail to read the privacy statement on the website. Users frequently have no idea when a cookie on their hard disk is being accessed. Sometimes this process is automatically done by the web server. In essence, cookies make use of user-specific data that is transferred by the Web server onto the user's computer for use of the particular data. 
+Moreover, in another study done by researchers from Berkeley [2] it was found that more than 50% of the sites in their database use flash cookies to store facts about the consumers. Flash cookies are only occasionally mentioned in privacy rules, and there aren't many user controls available to enforce privacy preferences. 
+Despite the widespread usage of cookies, little research has been done on their characteristics, such as common attributive practices, placement guidelines, and the information that may be gathered via third-party cookies. Researchers have presented an empirical analysis of the traits, placement methods, and information transmission of web cookies in this work. They used a lightweight web crawler to conduct this investigation, which tracks and stores cookies as it visits websites. The two crawls of the top 100K Alexa-ranked websites, separated by 18 months, yielded almost 3.2M cookies. Also authors shed light on various features of cookies and how some of them leave footprints across the internet. [3]
+A recent controversy surrounding DoubleClick Inc.'s decision to link previously anonymous user profiles with personally identifiable information using anonymous cookies without user consent serves as a backdrop for the paper's examination of the ethics of electronic monitoring for advertising purposes and the implications for Internet user privacy. Interestingly, The report finishes with a moral assessment of DoubleClick's response to the predicament it found itself in and a suggestion for a different strategy for morally justifying electronic monitoring.[4]
 
 
-Part 1: Analysis of Chicago Crime Dataset:
+#### Balancing usage of cookies 
+The underlying conflict between corporate and consumer interests makes privacy an essential issue in the competitive global economy. There have been debates going on lately regarding issues about consumer privacy, some argue that with the ability to utilize personal information about consumers, corporations can operate efficiently and make better products. While, some argue that this would violate the privacy rights and moral values set in the society. Moreover, centrist groups believe in balance between both the issues. In particular, its supporters contend that customers must have options in a thriving economy, and such options can be more relevant to consumers if "reasonable" corporate access to personal information is permitted. The paper [5] also mentions consumer willingness to disclose personal information by maintaining justice. As long as consumers believe they are receiving benefits that outweigh the risk of exposure now or in the future, they should continue to provide personal information. To keep people's trust, companies must be transparent and truthful about how they handle information.
 
-The crime dataset consists of more than 6 million rows of criminal cases involved from 2001 to 2022 along with the location’s latitude and longitude coordinates. There are a total of 35 unique crimes such as assault, robbery, gun violation etc. 
+#### Rules and regulation to protect consumer data and its global impact towards privacy handling
+The EU General Data Protection Regulation (GDPR) is based on the concept of human privacy as a fundamental right. The GDPR covers six general consumer data protection principles which are Fairness, Lawfulness, Purpose limitation, data minimisation, accuracy, storage limitation and integrity & confidentiality. This regulation ensures transparency which results in complete information availability to the consumers and accountability which makes organizations responsible for using personal information. Moreover informed consent is required to process any data.[6]
+Processing just anonymous data is an easy way to comply with all GDPR rules. In other words, data that does not contain personal information is typically viewed as anonymous and is not subject to GDPR. One of the intriguing cases included Netflix, which made available a dataset of 500,000 users' movie reviews. Only subscriber IDs and movie ratings were made public in the dataset, which was stripped of all personally identifiable data. However, by combining this data with other readily accessible information (such IMDB ratings), researchers were able to identify certain clients with a high degree of probability. Hence GDPR rules ensure that any kind of data is not re-identifiable. [7]
 
-Figure 1 shows the top 5 popular crimes from the year 2001-2022. Figure 2 which is made using matplotlib Library in Python shows public peace violation in Chicago during the year 2011. The graph is made by plotting crime location points on the Chicago city basemap which was also available on the Chicago data portal website. The black dots in the graph represent the crime locations for the following year. Next, Figure 3 is a line chart which shows the trend for all crimes which took place from the year 2001-2022. As seen from the graph, the overall number of criminal cases have decreased overtime possibly due to better security measures which are taken by the city. Figure 4 explains the trend of Theft crimes from the year 2001-2022. Both Figure 2 & 3 have almost similar trends. 
-    
-<img src="../assets/pngs/fig1.png" alt="image"/>
+Despite being each other's greatest commercial partners, the U.S. and EU take very different methods in their attempts to control personal data and the digital economy. This research paper examines the cross-border disparities in privacy policies between the U.S. and the EU and argues how these differences are due to the varied interests, social norms, and values of the two regions. Europeans appear to view privacy as a basic human right that must be protected by the state for its citizens. Many EU nations' constitutions specifically include the right to privacy. However, the paper states that the United States continues to self-regulate within numerous businesses because it recognizes the significance of privacy protection for the expansion of e-commerce. The Clinton/Gore 1997 Framework for Global Electronic Commerce embodied this American viewpoint and emphasized the importance of the private sector playing a key role in e-commerce and Internet governance. As a result, the framework promoted self-regulatory responses to privacy issues, and e-commerce was allowed to operate under its own rules to the extent that was practical. [8]
 
-Figure 1: Top 5 popular crimes from 2001-2022                
+#### Cookie management and self awareness
+Consumers and scholars alike have long been frustrated by proper cookie management procedures. The fact that cookies can be both helpful and harmful is a major contributing factor to this problem. Due to this dualism, a subjective element is necessary to properly handle cookies. Researchers explored cookie management issues through focus groups, and the findings from those sessions are presented in this publication. The study analyzes social and technical issues in light of some of the findings from this investigation and comes to the conclusion that raising awareness is the best partial answer to the privacy issues posed by cookies. Awareness is the greatest agent for change and Self awareness allows you to self correct, with that said Cookie awareness is one of the important issues which need to be addressed, this paper surely talks about that.[9]
 
-<img src="../assets/pngs/fig2.png" alt="image"/>
+## Description and Analysis
+How use of supercookies threatened privacy of Verizon consumers
+Many users and advocacy groups are against the use of super cookies due to privacy concerns. However, a number of ad agencies and websites have experimented with these more powerful cookies due to the potential wealth of data and its application in online advertising. 
+One such scenario was when Verizon, which is one of the biggest global telecommunication companies, used supercookies without user consent for tracking data. According to an article from the Washington Post [10], The Federal Communications Commission fined Verizon $1.35 million for secretly adding "supercookies," also known as unique identification headers (UIDH), into the mobile Internet traffic of its clients without their knowledge or agreement. It was the first time the FCC fined a company for the use of supercookies. Nobody knew supercookies existed in their devices, and consumers were unable to delete them. The majority of the time, cookies do not affect security, they are stored on the system's hard drive by the web browser and can be examined to determine which websites were visited and are associated with cookie files. In the case of Supercookies, Despite not containing personal information like a name or phone number, these trackers might easily be used to identify a person by tracking their online behaviors and comparing that with information that a person voluntarily provides online. 
 
-Figure 2: Public Peace Violation in the year 2011 (Graph made using Python)
-
-<img src="../assets/pngs/fig3.png" alt="image"  />
-Figure 3: Trend of the crime cases from 2001-2022		
-
-<img src="../assets/pngs/fig4.png" alt="image"  />
-Figure 4: Trend of Theft cases only, from 2001-2022
-
-
-Part 2: Analysis of Chicago CTA stations dataset:
-
-This dataset has 300 rows with station information such as Id, name, direction, line and coordinates. Most of Chicago's CTA train stations consist of 2 platforms in direction North, South, East or West. Even though the directions are different for any station, the coordinates remain the same. For example as shown in Figure 5, Station Halsted has 2 platforms in the direction W and E, but the location for both the rows remains the same. Moreover, the G column has True value which suggests that the station is on the green line.
-
-<img src="../assets/pngs/fig5.png" alt="image"  />
-Figure 5: Information about Halsted Station
-
-To avoid any duplicate values with the same coordinates for any station, I have considered the unique values of station ID. By Further preprocessing and manipulating the data using Pandas in Python, the following dataset is obtained as shown in Figure 6. In some scenarios multiple lines cross a single station, for instance, State/Lake station in the downtown Chicago region has 5 lines shown in Figure 7.
-
-<img src="../assets/pngs/fig6.png" alt="image"  />
-Figure 6: Preprocessed data				      
-
-<img src="../assets/pngs/fig7.png" alt="image"  />
-Figure 7: State/Lake station information
-
-In total there are 8 different lines in Chicago which are Red, Blue, Brown, Green, Orange, Pink, Purple and Yellow. Figure 8 shows the count of stations on different lines. Plotting the latitude and longitude points and adding color in Tableau we get the following map chart as shown in Figure 9. As seen the Train lines are all connected in the downtown region and spread outwards in different regions of Chicago. A lot of people travel to the downtown region being a big financial center and hence a number of stations are present in this region which form a loop as shown in Figure 10. 
-             
-<img src="../assets/pngs/fig8.png" alt="image"  />
-Figure 8: Count of Stations  on CTA train lines		    
-
-<img src="../assets/pngs/fig9.png" alt="image"  />
-Figure 9: Chicago CTA Metro Lines map Plot using Tableau
+Rules and Regulation imposed by FCC against Verizon
+According to the official FCC news report and Consent Decree [11], In order to determine whether Verizon Wireless violated the 2010 Open Internet Transparency Rule of the FCC and Section 222 of the Communications Act, an investigation was done. Carriers are required by Section 222 of the Communications Act to safeguard the confidential information of their clients and to use it only as directed. Additionally, it clearly forbids carriers from using any proprietary information they acquire from other carriers for the provision of telecommunications services for any other reason. Every fixed and mobile broadband Internet access provider is required to publicly disclose accurate information about the network management practices, performance, and commercial terms of its broadband Internet access services pursuant to Section 8.3 of the Commission's rules, also known as the Open Internet Transparency Rule, in order for consumers to make informed decisions regarding the use of such services and for content and application.
+Investigation by the Bureau revealed that Verizon Wireless started UIDH insertion into consumer Internet data as early as December 2012 but did not disclose this activity until October 2014. It was found that the main purpose of these undeletable identifiers was to deliver target advertisements from Verizon and Third Party agencies. For instance, in 2014, the supercookies enabled Verizon in serving advertisements from 1-800-Flowers.com Inc. to male Android smartphone users between the ages of 25 and 44 who had earnings greater than $75,000 [14]. According to later reports in January 2015, at least one of the business third-party partners was reinstating cookie IDs that users had deleted from their browsers by linking them to Verizon's supercookies, effectively overriding users' privacy preferences. Sen. Bill Nelson of Florida, the top Democrat on the Senate Commerce Committee, said in a statement [16] that "this whole supercookie business creates the prospect of companies being able to peep into the habits of Americans without their knowledge or consent."
+With the increase in digital footprints left behind on our smart devices today, people are concerned a lot when it comes to Privacy. Travis LeBlanc, the head of the FCC Enforcement Bureau, stated that consumers should have a say in how their personal information is used because they care about privacy, particularly when it comes to who can see what they do online.  Additionally, he contended that innovation and privacy are incompatible with each other. According to the FCC, Verizon's inability to give users "accurate and adequate" information about the supercookies violates transparency standards from the 2010 net neutrality guidelines. Verizon filed a lawsuit to challenge the laws. Even while a federal appeals court sided with Verizon for the most part, the decision upheld the transparency regulation that Verizon broke with their supercookies. 
+Net neutrality rules [15] are another reason which cause tighter restrictions to various internet companies. One of the most important policy issues for legislators, the telecommunication sector, media reformers, and communication researchers is the concept of "network neutrality." Network neutrality, in a nutshell, is the belief that Internet service providers (ISPs) should permit equal interconnection between network users and content providers, preventing those who control access to the network from censoring legal information or implementing discriminatory content routing. The outcome of this discussion will have a big impact on the Internet's participatory democracy, the free exchange of ideas and speech, user privacy rights, Internet governance, the effectiveness of independent media, political participation, and the long-term viability of libraries and educational systems.
+As per one of the articles [12], The business, named Turn, makes use of a hidden, undeletable number that Verizon uses to track user's smartphone and tablet usage patterns, after which Verizon said it would offer customers a way to opt out. Verizon Wireless expressed a commitment to working with its partners to address the issue of protecting the privacy of user data after acknowledging the concerns sparked by recent news reports. 
 
 
-  	  
-         Figure 10: (Left) Downtown Chicago Region made on Tableau; 
-            Figure 10: (Right) Official CTA train map, https://www.transitchicago.com/maps/
+What actions were taken by verizon?
+Verizon Wireless's cooperation during this investigation and willingness to change its practices for the benefit of its customers were both mentioned in the FCC news report. In another report [13] the FCC said that Verizon Wireless is informing customers about its targeted advertising programs, will acquire their consent (opt-in or opt-out) before sharing UIDH with third parties, and will do so before sharing UIDH internally within the Verizon corporate family. To preserve consumer privacy, the anonymous identification should be frequently changed. According to Verizon, it is doubtful that websites and advertisers could construct customer profiles because the IDs change frequently. Based on the data preprocessing activities at Verizon, it clearly speaks about the nature and purpose of personal data preprocessing. Verizon website talks about Processing a limited amount of personal data when providing customer service. It is mentioned that Verizon as well as its vendors and partners may need to process personal data which is defined by EU General Data Protection Regulation (GDPR) and other privacy laws. According to the Article 28 GDPR, details about audio conferencing like call detail record, participants list, billing account number, customer profile automatic number, cyber risk monitoring information like Email address, IP address, geographic location etc are collected.
 
-				
-
-
-Part 3: Analysis by combining both the Dataset
-
-To combine both the crime and CTA Train dataset, I have identified crime locations which are near to any CTA train station. In order to do so, I’m using the distance between the 2 points (crime location and CTA metro station location) which is calculated with the help of Geographiclib in Python. Using an ellipsoid model of the earth, this library can be used to solve geodesic problems. For this research purpose I have kept a threshold value of 500 meters. Meaning, only information about crime locations which are under 500 meters from the CTA train station will be stored and used for analysis.
-
-## 3. Results and Discussion
-
-The final combined dataset csv file is loaded in Tableau which allows easy visualization and understanding of data.
+What rules do other telecommunication companies follow to maintain customer data privacy? 
+Certainly smartphones are the second brain and the information stored about the customer is vast. Companies should definitely use strict rules and regulation when it comes to handling this data and ensure that it is not being misused for their own benefit. Verizon is not the only company attempting to enter the mobile marketing space. The testing of a similar program, which entailed adding a numerical code to a user's online queries, was recognized by AT&T. According to Emily Edmonds [17], director of corporate communications for AT&T, this code would vary every 24 hours, and if AT&T moves forward with the program, it will allow users to totally opt out, meaning the identification will stop being put altogether. The purpose of the privacy law is to guarantee that customers are informed about the information that businesses gather about them and to give them the option to agree to its dissemination. It mandates that businesses be transparent about the data they're collecting and their motivations. Additionally, people have the right to all of their personal information and the ability to erase it. The fact that tech companies and website operators are being more open with people about what they're doing with their data and how they're tracking them is unquestionably a good thing. Furthermore, several businesses have improved their procedures related to matters like breach notifications as a result of the GDPR [18] and the severe fines it threatens.In addition to what is occurring in Europe, there is a push in the US for online privacy as well as some prospective laws that may one day alter how data collecting, including cookie use, occurs online. For instance, Senate Democrats submitted the Consumer Online Privacy Rights Act (COPRA), which aims to broaden digital privacy rights and safeguards in a way that is comparable to GDPR. Rep. Ro Khanna (D-CA) has also proposed an Internet Bill of Rights, a list of user protections in the digital era. 
 
 
 
+Analyzing the best way of using cookies
+When it comes to privacy, self awareness is something which is really important. A lot of people from different countries and backgrounds who have access to the internet might not be aware how cookies work, hence education plays a vital role. 
+Users should be more cautious when giving their agreement to cookies so they understand what data will be gathered and how it will be used. This will entail altering the cookie default on websites from opt-out to opt-in so that users can actively choose to use cookies to enhance their experience. 
+Cookie permissions frequently change, so it's important to be aware of what information is being sought and how it will be utilized. 
+American internet users should have the ability to delete personally-identifying information that has been gathered by tracking cookies and is detrimental or has been utilized in a way that was not intended.
 
+## Discussion and Conclusion
+The case study about Verizon's use of supercookies to get customer data without their consent was a very interesting one. Today, Big companies have millions of users which rely and trust services provided by industry and are directly affected by the dangers of exploitation of personal data. I feel with the help of proper Ethical rules and regulations, it is ensured that public privacy is maintained. Moreover, It keeps the entire technology environment more transparent to the general public when the consumers themselves are asked if they want to opt in or not. Another interesting thing to learn from this case is that, third parties cookies are often not transparent and remain into the user's system unless they are discovered which takes time and a lot of investigation, hence this process I believe is something which can be tedious to organizations like FCC. Lastly, while analyzing I found that a lot of new rules come up which change the entire scenario of data collection by telecom companies.
+One of the major global collectors of private data is the telecoms sector. With more than thousand plus carriers and a total billions of customers, I feel, this case study relates to other cases as well by ensuring privacy of customer data with the help of ethical rules and regulations mentioned in this research paper. Major companies such as AT&T, T-Mobile, Reliance who have a major customer base in India etc recently made strict guidelines on what data is to be collected from their consumers and how to further process it. 
 
+Based on my understanding about Data ethics in general, Every business, in my opinion, needs to develop its own best practices for data management. Data ethics covers the moral responsibilities of collecting, safeguarding, and exploiting personally identifiable information as well as how it impacts people. Today's businesses are more at risk from their own inability to gain and maintain customer trust, not from the competition. Data's growing significance has altered not just how businesses provide goods and services, but also how customers make choices. Companies must make sure they adhere to ethical standards and regulations in order to foster confidence at every touchpoint throughout the consumer experience.
 
+I feel there can be various similar ethical issues in the future which deal with companies relying on customer data without their consent. In fact, safeguarding data privacy is both vital and challenging. The prevalence of the technology-driven and information-intensive environment makes this protection important. I feel strict rules and regulations which are imposed by agencies around the world as mentioned in this research paper can help to avoid such issues. 
+According to the research analysis done in this paper, I feel it supports the literature in the literature review. The paper talks about rules and regulation to protect consumer data and its global impact towards privacy handling. Because of the strict laws and fines enforced by the FCC on big companies like Verizon who have millions of customers, other companies tend to comply as well with ethical rules and regulations. Moreover the analysis mentions how consumers can be self aware in order to protect from any data being exploited.
 
+I feel the paper could shed more light on ways the consumer can be aware about the usage of cookies. Today, there are a lot of new technical tools which have evolved and can help to balance the usage of cookies and avoid exploiting us. I feel each technology has an advantage and a disadvantage, cookies are no different, in some cases they might be very useful and make the web experience better. Since this paper majorly talks about problems associated with cookies, I feel this paper could briefly explain in which scenarios cookies are helpful.  
 
+To conclude, I think the FCC did the right thing by ensuring the data is not exploited by Verizon without customers consent and a boundary is defined to stop major companies with the help of ethical laws. Moreover, privacy is the key to gaining access to the parts of yourself that are the most vulnerable. Data security is of utmost importance, particularly when a company collects customer data, whether or not it is done online. We might not want to share this information with just anyone because it can be quite private. Furthermore, the law and regulations mandates that sensitive data be well-protected after it has been trusted and stored. The ability to manage information effectively and restrict access are all important components of data protection.
 
+## References:
+
+[1]: Hormozi, Amir M. 2005. "Cookies and Privacy." Information Systems Security 13 (6) (Jan): 51-59. https://www.proquest.com/scholarly-journals/cookies-privacy/docview/229516983/se-2.
+
+[2]: Soltani, Ashkan and Canty, Shannon and Mayo, Quentin and Thomas, Lauren and Hoofnagle, Chris Jay, Flash Cookies and Privacy (August 10, 2009). Available at SSRN: https://ssrn.com/abstract=1446862
+
+[3]: Aaron Cahn, Scott Alfeld, Paul Barford, and S. Muthukrishnan. 2016. An Empirical Study of Web Cookies. In Proceedings of the 25th International Conference on World Wide Web (WWW '16). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 891–901. https://doi.org/10.1145/2872427.2882991
+
+[4]: Charters, D. Electronic Monitoring and Privacy Issues in Business-Marketing: The Ethics of the DoubleClick Experience. Journal of Business Ethics 35, 243–254 (2002). https://doi.org/10.1023/A:1013824909970
+
+[5]: Culnan, M.J. and Bies, R.J. (2003), Consumer Privacy: Balancing Economic and Justice Considerations. Journal of Social Issues, 59: 323-342. https://doi.org/10.1111/1540-4560.00067
+
+[6]: Goddard, M. (2017). The EU General Data Protection Regulation (GDPR): European Regulation that has a Global Impact. International Journal of Market Research, 59(6), 703–705. https://doi.org/10.2501/IJMR-2017-050
+
+[7]: N. Gruschka, V. Mavroeidis, K. Vishi and M. Jensen, "Privacy Issues and Data Protection in Big Data: A Case Study Analysis under GDPR," 2018 IEEE International Conference on Big Data (Big Data), 2018, pp. 5027-5033, doi: 10.1109/BigData.2018.8622621. 
+
+[8]: MOVIUS, Lauren B.; KRUP, Nathalie. U.S. and EU Privacy Policy: Comparison of Regulatory Approaches. International Journal of Communication, [S.l.], v. 3, p. 19, jan. 2009. ISSN 1932-8036. Available at: https://ijoc.org/index.php/ijoc/article/view/405/305. Date accessed: 28 Oct. 2022.
+
+[9]: Vicki Ha, Kori Inkpen, Farah Al Shaar, and Lina Hdeib. 2006. An examination of user perception and misconception of internet cookies. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA '06). Association for Computing Machinery, New York, NY, USA, 833–838. https://doi.org/10.1145/1125451.1125615
+
+[10]: Peterson, A. (2016, March 7). FCC cracks down on Verizon Wireless for using ‘supercookies’. Washington Post. https://www.washingtonpost.com/news/the-switch/wp/2016/03/07/fcc-cracks-down-on-verizons-supercookies/
+
+[11]: FCC Settles Verizon "Supercookie" Probe. (n.d.). Federal Communications Commission. https://www.fcc.gov/document/fcc-settles-verizon-supercookie-probe
+
+[12]: Angwin, J., & Tigas, M. (2015, January 14). Zombie cookie: The tracking cookie that you can’t kill. Ars Technica. https://arstechnica.com/information-technology/2015/01/zombie-cookie-the-tracking-cookie-that-you-cant-kill/
+
+[13]: Brodkin, J. (2016a, March 7). Verizon’s “supercookies” violated net neutrality transparency rule. Ars Technica. https://arstechnica.com/information-technology/2016/03/verizons-supercookies-violated-net-neutrality-transparency-rule/
+
+[14]: Knutson, R. (2016a, March 8). FCC fines Verizon $1.35 million over ‘supercookies’. MarketWatch. https://www.marketwatch.com/story/fcc-fines-verizon-135-million-over-supercookies-2016-03-07?rss=1&amp;siteid=rss
+
+[15]: Jeffrey, Layne Blevins. 2010. "Editorial: International Perspectives on Network Neutrality -- Exploring the Politics of Internet Traffic Management and Policy Implications for Canada and the U.S." Global Media Journal 3 (1): 1. https://www.proquest.com/scholarly-journals/editorial-international-perspectives-on-network/docview/888154819/se-2.
+
+[16]: Associated Press. (2015, February 7). Democratic senators are accusing Verizon of using 'supercookies' to violate privacy. Business Insider. https://www.businessinsider.com/democratic-senators-are-accusing-verizon-of-using-supercookies-to-violate-privacy-2015-2
+
+[17]: Goldstein, P. (2014, November 14). AT&T stops adding 'super cookie' to track mobile browsing, but Verizon's program continues. Fierce Wireless. https://www.fiercewireless.com/wireless/at-t-stops-adding-super-cookie-to-track-mobile-browsing-but-verizon-s-program-continues
+
+[18]: Stewart, E. (2019, December 10). Why every website wants you to accept its cookies. Vox. https://www.vox.com/recode/2019/12/10/18656519/what-are-cookies-website-tracking-gdpr-privacy
 
