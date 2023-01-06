@@ -20,6 +20,7 @@ custom_js:
 {% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/8f1a16c9a7b18d162afb46b5caffa230f745969e/main%20analysis.ipynb" text="Python Jupyter Notebook" %}
 </div>
 
+![img1](https://img.masstransitmag.com/files/base/cygnus/mass/image/2022/12/16x9/US_NEWS_CHICAGO_TRANSIT_CRIME_TB.63ab848633023.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630)
 
 ## 1. Introduction:
 Chicago is one of the biggest cities in the United States and is home to more than 2.5 million people. When it 
