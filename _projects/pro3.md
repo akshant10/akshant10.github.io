@@ -48,7 +48,7 @@ The crime dataset consists of more than 6 million rows of criminal cases involve
 
 Figure 1 shows the top 5 popular crimes from the year 2001-2022. Figure 2 which is made using matplotlib Library in Python shows public peace violation in Chicago during the year 2011. The graph is made by plotting crime location points on the Chicago city basemap which was also available on the Chicago data portal website. The black dots in the graph represent the crime locations for the following year. Next, Figure 3 is a line chart which shows the trend for all crimes which took place from the year 2001-2022. As seen from the graph, the overall number of criminal cases have decreased overtime possibly due to better security measures which are taken by the city. Figure 4 explains the trend of Theft crimes from the year 2001-2022. Both Figure 2 & 3 have almost similar trends. 
     
-<vegachart schema-url="{{ site.baseurl }}/assets/json/file1.json" style="width: 100%"></vegachart>
+![avatar](https://rockfordil.gov/wp-content/themes/rockford/assets/images/General/cor_logo_color.png)
 
 Figure 1: Top 5 popular crimes from 2001-2022                
 
