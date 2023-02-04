@@ -1,6 +1,6 @@
 ---
 name: Music Analysis - How Music has evolved over the decade
-image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/08/640/320/Untitled-design-463.png?ve=1&tl=1
+image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fmusic_3844724&psig=AOvVaw3ePXxGRouAgf0v00icDrqH&ust=1675618077638000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJivgvux_PwCFQAAAAAdAAAAABAD
 description: Analysis of crime with associated with different CTA metro line 
 custom_js:
   - vega.min
