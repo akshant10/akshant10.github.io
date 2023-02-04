@@ -9,5 +9,6 @@ custom_js:
   - justcharts
 ---
 
-Project will be uploaded soon.
-<img src="../assets/pngs/fig1.png" alt="image"/>
+Entire project will be uploaded soon.
+<img src="../assets/pngs/fig23.png" alt="image"/>
+<img src="../assets/pngs/fig24.png" alt="image"/>
