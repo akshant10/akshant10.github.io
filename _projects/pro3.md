@@ -116,12 +116,12 @@ part a: Observation from the Map and Line charts.
 As seen from the above visualizations in Tableau we can observe that for a distance threshold of 100 Meters the Red CTA line has the highest Assault, robbery, battery and theft crimes. The Visualization also shows that a lot of crimes are associated in the downtown and southern part of the Chicago city where Red and Green lines travel to. 
 
 part b: Observation according to the time when crime took place.
-<img src="../assets/pngs/fig17.png" alt="image"  />	
-<img src="../assets/pngs/fig18.png" alt="image"  />	
-<img src="../assets/pngs/fig19.png" alt="image"  />	
-<img src="../assets/pngs/fig20.png" alt="image"  />	
-<img src="../assets/pngs/fig21.png" alt="image"  />	
-<img src="../assets/pngs/fig22.png" alt="image"  />
+<img src="../assets/pngs/fig16.png" alt="image"  />	
+<img src="../assets/pngs/fig16.png" alt="image"  />	
+<img src="../assets/pngs/fig16.png" alt="image"  />	
+<img src="../assets/pngs/fig15.png" alt="image"  />	
+<img src="../assets/pngs/fig14.png" alt="image"  />	
+<img src="../assets/pngs/fig13.png" alt="image"  />
 
 According to the date and time information the visualizations suggests the following:
 1: A lot of robbery crimes around the 100 meter radius of the metro stations increases as the day passes and slows down after midnight. While assault crimes increase during the morning with its peak during 4 pm afternoon. Note that this Visualization can be further broken down according to the Lines using Filters on Tableau.
