@@ -10,3 +10,4 @@ custom_js:
 ---
 
 Project will be uploaded soon.
+<img src="../assets/pngs/fig1.png" alt="image"/>
