@@ -1,6 +1,6 @@
 ---
 name: Music Analysis - How Music has evolved over the decade
-image: https://png.pngtree.com/png-vector/20220813/ourmid/pngtree-musical-notes-staff-colored-clip-art-png-image_6108111.png
+image: https://www.seekpng.com/png/detail/132-1320851_music-music-icon-png-transparent.png
 description: Analysis of crime with associated with different CTA metro line 
 custom_js:
   - vega.min
