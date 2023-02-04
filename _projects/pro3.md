@@ -104,6 +104,8 @@ To combine both the crime and CTA Train dataset, I have identified crime locatio
 ## 3. Results and Discussion
 
 The final combined dataset csv file is loaded in Tableau which allows easy visualization and understanding of data.
+
+part a: Observation from the Map and Line charts.
 <img src="../assets/pngs/fig16.png" alt="image"  />	
 <img src="../assets/pngs/fig11.png" alt="image"  />	
 <img src="../assets/pngs/fig12.png" alt="image"  />	
@@ -111,10 +113,25 @@ The final combined dataset csv file is loaded in Tableau which allows easy visua
 <img src="../assets/pngs/fig14.png" alt="image"  />	
 <img src="../assets/pngs/fig15.png" alt="image"  />	
 
+As seen from the above visualizations in Tableau we can observe that for a distance threshold of 100 Meters the Red CTA line has the highest Assault, robbery, battery and theft crimes. The Visualization also shows that a lot of crimes are associated in the downtown and southern part of the Chicago city where Red and Green lines travel to. 
 
+part b: Observation according to the time when crime took place.
+<img src="../assets/pngs/fig17.png" alt="image"  />	
+<img src="../assets/pngs/fig18.png" alt="image"  />	
+<img src="../assets/pngs/fig19.png" alt="image"  />	
+<img src="../assets/pngs/fig20.png" alt="image"  />	
+<img src="../assets/pngs/fig21.png" alt="image"  />	
+<img src="../assets/pngs/fig22.png" alt="image"  />
 
+According to the date and time information the visualizations suggests the following:
+1: A lot of robbery crimes around the 100 meter radius of the metro stations increases as the day passes and slows down after midnight. While assault crimes increase during the morning with its peak during 4 pm afternoon. Note that this Visualization can be further broken down according to the Lines using Filters on Tableau.
 
+2: On analyzing the data according to the days, it suggests that for Assault, Wednesday has the highest crime rate. While for Theft, Friday has the highest crime level.
 
+3: On Comparing the overall crime level on a monthly basis we can see that, crime levels for both Assault and Theft for the Red CTA line  lowers during the cold winter months. Suggesting that a lot of less people travel during the winter,
+
+Limitations:
+One of the biggest drawbacks is that this data is considering the overall crimes and is not just specific to the CTA metro crimes. Hence the data can be further cleaned by focusing on just Metro crimes to improve the analysis of this study. 
 
 
 
