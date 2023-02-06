@@ -10,5 +10,5 @@ custom_js:
 ---
 
 Entire project will be uploaded soon.
-<img src="../assets/pngs/fig23.png" alt="image"/>
-<img src="../assets/pngs/fig24.png" alt="image"/>
+<img src="../assets/images/fig23.png" alt="image"/>
+<img src="../assets/images/fig24.png" alt="image"/>
