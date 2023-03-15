@@ -1,7 +1,7 @@
 ---
 name: Instagram User Network Analysis
 image: https://media.geeksforgeeks.org/wp-content/uploads/creatingEdges.jpg
-description: Instagram User Network Analysis
+description: Analysis of Follower and Following Network for my Instagram account
 custom_js:
   - vega.min
   - vega-lite.min
