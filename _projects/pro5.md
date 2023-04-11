@@ -1,6 +1,6 @@
 ---
 name: Music Analysis - How Music has evolved over the decade
-image: https://static.vecteezy.com/system/resources/previews/001/200/839/original/music-note-png.png
+image: https://png.pngtree.com/png-vector/20220813/ourmid/pngtree-musical-notes-staff-colored-clip-art-png-image_6108111.png
 description: Analysis of songs
 custom_js:
   - vega.min
