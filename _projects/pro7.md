@@ -1,7 +1,7 @@
 ---
-name: Air Quality Analysis using ML
-image: https://www.seekpng.com/png/detail/132-1320851_music-music-icon-png-transparent.png
-description: Analysis of songs
+name: Air Quality Analysis 
+image: https://breathepa.org/wp-content/uploads/2015/07/air-quality-alert-4x3-1-1080x675.jpg
+description: Analysis of Air quality across multiple major Indian Cities
 custom_js:
   - vega.min
   - vega-lite.min
