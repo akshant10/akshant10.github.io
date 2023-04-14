@@ -35,7 +35,9 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Akshant Churi
-  image             :  https://avatars.githubusercontent.com/u/44509010?v=4
+  image             :    https://github.com/akshant10/akshant10.github.io/blob/main/assets/images/profile.png?raw=true
+
+  #https://avatars.githubusercontent.com/u/44509010?v=4
 #  behance           : your_username
 # dribbble          : your_username
   email             : achuri2@illinois.edu
