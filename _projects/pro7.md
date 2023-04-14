@@ -12,5 +12,5 @@ custom_js:
 <div class="right">
 {% include elements/button.html link="https://airquality.cpcb.gov.in/AQI_India/" text="Link to Data Source" %}
 </div>
-<img src="../assets/images/fig27.png" alt="image"/>
+<img src="../assets/images/27.png" alt="image"/>
 
