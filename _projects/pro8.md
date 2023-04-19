@@ -17,7 +17,7 @@ custom_js:
 <img src="../assets/images/fig31.png" alt="image"/>
 <img src="../assets/images/fig32.png" alt="image"/>
 <img src="../assets/images/fig33.png" alt="image"/>
-<img src="../assets/images/figx1.png" alt="image"/>
-<img src="../assets/images/figx2.png" alt="image"/>
-<img src="../assets/images/figx3.png" alt="image"/>
+<img src="../assets/images/x1.png" alt="image"/>
+<img src="../assets/images/x2.png" alt="image"/>
+<img src="../assets/images/x3.png" alt="image"/>
 
