@@ -1,6 +1,6 @@
 ---
 name: Data Analysis of Energy Sources - Why US isn’t ready for Clean Energy
-image: https://breathepa.org/wp-content/uploads/2015/07/air-quality-alert-4x3-1-1080x675.jpg
+image: https://i.pinimg.com/736x/9c/c3/63/9cc3630eb374546457b147737d5e1e66.jpg
 description: Analysis of different energy resources and distribution of energy plants in US
 custom_js:
   - vega.min
@@ -12,5 +12,12 @@ custom_js:
 <div class="right">
 {% include elements/button.html link="https://airquality.cpcb.gov.in/AQI_India/" text="Link to Data Source" %}
 </div>
-<img src="../assets/images/fig27.png" alt="image"/>
+<img src="../assets/images/fig29.png" alt="image"/>
+<img src="../assets/images/fig30.png" alt="image"/>
+<img src="../assets/images/fig31.png" alt="image"/>
+<img src="../assets/images/fig32.png" alt="image"/>
+<img src="../assets/images/fig33.png" alt="image"/>
+<img src="../assets/images/figx1.png" alt="image"/>
+<img src="../assets/images/figx2.png" alt="image"/>
+<img src="../assets/images/figx3.png" alt="image"/>
 
