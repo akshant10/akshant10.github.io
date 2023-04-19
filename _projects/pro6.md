@@ -10,8 +10,8 @@ custom_js:
 ---
 # Instagram User Network Analysis
 
-Entire Project will be uploaded soon
 <img src="../assets/images/fig25.png" alt="image"/>
+<img src="../assets/images/fig26.png" alt="image"/>
 
 As a Data enthusiast, I'm always on the lookout for new and interesting datasets to explore. That's why I recently turned to social media to see what insights I could gain from my own Instagram Account. Using Python and powerful libraries like NetworkX and Selenium for web automation, I was able to build network graphs that visualized the connections between my followers and following users. And by using Pandas to create and manipulate data frames, I was able to collect data for more than 50 users.
 
