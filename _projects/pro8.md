@@ -10,7 +10,7 @@ custom_js:
 ---
 
 <div class="right">
-{% include elements/button.html link="https://airquality.cpcb.gov.in/AQI_India/" text="Link to Data Source" %}
+{% include elements/button.html link="https://github.com/akshant10/akshant10.github.io/blob/main/project%20data/projectfinal.pptx?raw=true" text="Download project PPT" %}
 </div>
 
 Tools used: Python, Alteryx, Qliksense
