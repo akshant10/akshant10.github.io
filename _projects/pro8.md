@@ -13,6 +13,8 @@ custom_js:
 {% include elements/button.html link="https://airquality.cpcb.gov.in/AQI_India/" text="Link to Data Source" %}
 </div>
 
+Tools used: Python, Alteryx, Qliksense
+
 Energy is the power or capacity to do work. Electric Energy is caused by the movement of electric charges called electrons. The energy resources fall into two main categories, often called renewable and non-renewable energy resources We intend to do a deep analysis of how are we performing in minimizing our usage of non-renewable energy v/s to increased usage and popularity of renewable energy. We later on delve deep into one single region and show(through visualizations) the prospect places to harness renewable energy.
 
 To conduct an analysis of the energy dataset, We first collected data from multiple sources that contained information on the amount of terawatt hours (TWH) consumed. Using the data integration and transformation capabilities of Alteryx, we then successfully merged the individual datasets into a single, comprehensive dataset for analysis.
