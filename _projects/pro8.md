@@ -34,7 +34,7 @@ A lot of powerplants are located near the river areas, as seen Mississipi river 
 
 <img src="../assets/images/x1.png" alt="image"/>
 <img src="../assets/images/x2.png" alt="image"/>
-The above graph shows the population density across different regions in the US...with major cities across California, Texas, New York, Chicago etc.
+The above graph created using QlikSense shows the population density across different regions in the US...with major cities across California, Texas, New York, Chicago etc.
 The below graph shows the major power plants across US, So they tend to be were majority of people are. Take the example of Champaign Urbana, where I live... the electricity comes from various sources from Illinois and other neighboring states, so the electricity travels 100s of miles with interconnected transmission lines before reaching us. 
 But we simply, cannot build a renewable power plant at any place, there needs to be a proper strategic location to maximize efficiency. 
 To build a clean energy future transmitting energy from potential regions to cities will be the biggest challenge
