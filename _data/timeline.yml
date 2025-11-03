@@ -1,8 +1,8 @@
 - title: Business Analyst | Blick Art Materials | Chicago, USA
   from: June, 2023
   to: present
-  description: Create, manage and distribute data reports with other departments using Alteryx, Excel and Python. Perform data modelling and Design Dashboard with 78 Million+ records in PowerBi to track period end sales for merchendising team. Create well defined documented SOPs to help business understand various attributes in the database. 
-
+  description: Led the design and implementation of enterprise Power BI dashboards analyzing 100M+ sales, vendor, and inventory records from AWS Redshift using SQL and Python automation. Automated reporting workflows with Python and Alteryx, reducing manual Excel work by 95%, and built a custom Python Flask app on Azure to streamline warehouse safety reporting and real-time incident tracking.
+  
 - title: Logistics Data Intern | TTX Company | Chicago, USA
   from: May, 2022
   to: May 2023
@@ -11,7 +11,7 @@
 - title: Research Program Data Intern | Illinois Quantum Information Science and Technology, UIUC | Champaign, USA
   from: May, 2022
   to: August, 2022
-  description:  Created a web scrapping tool using Python to automate the process of extracting research paper publication data and creating reports from Arxiv and Google Scholar, reducing human intervention by 90%. Used Python Libraries like win32 and Selenium for automating process of email notification to the users. Preprocessed 2000+ research paper textual data using natural language libraries in Python to find key word, author, genre, publication date etc. 
+  description:  Developed Python automation pipelines to scrape, preprocess, and analyze 10K+ research papers. Applied NLP techniques (NER, TF-IDF, LDA) to uncover research trends, reducing manual data curation and enabling faster insight generation for researchers.
   
 - title: Business Strategic Consultant | Carle Illinois college of Medicine, UIUC | Champaign, USA
   from: March, 2022
@@ -21,7 +21,7 @@
 - title: Data Analyst Intern | Revitech Infosolutions | Mumbai, India 
   from: March, 2019
   to: September, 2019
-  description: Designed complex data pipelines using Alteryx, ensuring data accuracy and consistency for downstream analysis and visualization in Qlik Sense. 
+  description: Performed data analysis and statistical modeling using R, ensuring accurate insights for downstream reporting and visualization in Qlik Sense and Tableau.
   
 - title: Graphic Designer / Creative Head | Computer Society of India | St. Francis Institute of Technology | Mumbai, India 
   from: August, 2018
