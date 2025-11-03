@@ -8,10 +8,15 @@ weight: 3
 # **About Me**
 
 ### Hi I am **{{ site.author.name }}**:<br>
-Motivated, teamwork-oriented, responsible, and experienced Data Analyst with a master’s degree in Information Management from the School of Information Science at the University of Illinois Urbana-Champaign. My aim is to leverage the power of Data Analytics, Visualization and Statistics for generating meaningful insights for business.
+I’m an Analyst with 3+ years of experience turning complex data into actionable insights. I love telling stories with data — whether it’s uncovering trends in millions of sales transactions, tracking logistics performance across the country, or building interactive dashboards that help teams make smarter decisions.
+Data is more than numbers to me; it’s a way to understand the world, solve problems, and communicate ideas clearly. I enjoy combining analytics, visualization, and automation to make data meaningful and accessible for everyone.
+
+####Education:
+Master’s in Information Management, University of Illinois at Urbana-Champaign, 2023
+Bachelor’s in Computer Engineering, University of Mumbai, 2020
 
 #### Hobbies: 
-I love Oil Painting, Skateboarding, going out in the nature & enjoy playing Cricket, Football and Badminton.
+When I’m not analyzing data, you’ll find me sketching and painting, skateboarding, exploring the outdoors, playing cricket, football, and badminton, staying active with fitness, or experimenting in the kitchen. I believe life is a mix of creativity, curiosity, and action — and I bring that same energy to my work.
 
 <div class="left">
 {% include elements/button.html link="https://www.linkedin.com/in/akshant-churi/" text="Linkedin" %}
