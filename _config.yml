@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : My Portfolio
 description         : >-
-                      Data Savvy | Master of Science in Information Management at the University of Illinois Urbana-Champaign
+                     Analytics Enthusiast & Problem Solver | M.S. in Information Management, University of Illinois Urbana-Champaign
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : akshant10               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
