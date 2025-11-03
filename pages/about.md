@@ -12,7 +12,7 @@ I’m an Analyst with 3+ years of experience turning complex data into actionabl
 Data is more than numbers to me; it’s a way to understand the world, solve problems, and communicate ideas clearly. I enjoy combining analytics, visualization, and automation to make data meaningful and accessible for everyone.
 
 #### Education:
-Master’s in Information Management, University of Illinois at Urbana-Champaign, 2023
+Master’s in Information Management, University of Illinois at Urbana-Champaign, 2023 <br>
 Bachelor’s in Computer Engineering, University of Mumbai, 2020
 
 #### Hobbies: 
