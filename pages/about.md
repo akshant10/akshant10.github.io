@@ -11,7 +11,7 @@ weight: 3
 I’m an Analyst with 3+ years of experience turning complex data into actionable insights. I love telling stories with data — whether it’s uncovering trends in millions of sales transactions, tracking logistics performance across the country, or building interactive dashboards that help teams make smarter decisions.
 Data is more than numbers to me; it’s a way to understand the world, solve problems, and communicate ideas clearly. I enjoy combining analytics, visualization, and automation to make data meaningful and accessible for everyone.
 
-####Education:
+#### Education:
 Master’s in Information Management, University of Illinois at Urbana-Champaign, 2023
 Bachelor’s in Computer Engineering, University of Mumbai, 2020
 
