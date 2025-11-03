@@ -1,6 +1,6 @@
 ---
 name: Air Quality Analysis 
-image: https://breathepa.org/wp-content/uploads/2015/07/air-quality-alert-4x3-1-1080x675.jpg
+image: https://d3i6fh83elv35t.cloudfront.net/static/2024/11/2024-11-18T050426Z_1854716573_RC2E7BAP0DH6_RTRMADP_3_INDIA-POLLUTION-1200x847.jpg
 description: Analysis of Air quality across multiple major Indian Cities
 custom_js:
   - vega.min
